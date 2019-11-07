@@ -1,0 +1,17 @@
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\bin\Debug\Tarjeta red bus final.exe.config
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\bin\Debug\Tarjeta red bus final.exe
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\bin\Debug\Tarjeta red bus final.pdb
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\bin\Debug\Entidades.dll
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\bin\Debug\Negocio.dll
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\bin\Debug\Datos.dll
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\bin\Debug\Entidades.pdb
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\bin\Debug\Negocio.pdb
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\bin\Debug\Datos.pdb
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\obj\Debug\Tarjeta_red_bus_final.Form1.resources
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\obj\Debug\Tarjeta_red_bus_final.Form2.resources
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\obj\Debug\Tarjeta_red_bus_final.Properties.Resources.resources
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\obj\Debug\Tarjeta red bus final.exe
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Tarjeta red bus final\obj\Debug\Tarjeta red bus final.pdb

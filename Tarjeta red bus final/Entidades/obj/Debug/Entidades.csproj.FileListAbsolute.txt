@@ -1,0 +1,5 @@
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Entidades\bin\Debug\Entidades.dll
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Entidades\bin\Debug\Entidades.pdb
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Entidades\obj\Debug\Entidades.dll
+C:\Users\agust\Desktop\Programacion\Tarjeta red bus final\Entidades\obj\Debug\Entidades.pdb
