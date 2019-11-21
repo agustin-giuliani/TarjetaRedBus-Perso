@@ -58,7 +58,7 @@ namespace Tarjeta_red_bus_final
             objEntPersona.Nombre = TxBNom.Text;
             objEntPersona.Apellido = TxBApell.Text;
             objEntPersona.Sexo = Char.Parse(TxBSex.Text);
-            objEntPersona.FechaNac = DateTime.Parse(TxBFech.Text);
+            objEntPersona.FechaNac = TxBFech.Text;
             objEntPersona.DNI = int.Parse(TxBDNI.Text);
             objEntPersona.Cuild = int.Parse(TxBCu.Text);
         }

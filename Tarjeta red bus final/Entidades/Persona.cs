@@ -13,7 +13,7 @@ namespace Entidades
         private string apellido;
         private int dni;
         private Char sexo;
-        private DateTime fechaNac;
+        private string fechaNac;
         private int cuild;
         #endregion
 
@@ -24,7 +24,7 @@ namespace Entidades
             apellido = string.Empty;
             dni = 0;
             sexo = Char.Parse(string.Empty);
-            fechaNac = DateTime.Now;
+            fechaNac = string.Empty;
             cuild = 0;
         }
         #endregion
@@ -58,7 +58,7 @@ namespace Entidades
             set { sexo = value; }
         }
 
-        public DateTime FechaNac
+        public string FechaNac
         {
             get { return fechaNac; }
             set { fechaNac = value; }

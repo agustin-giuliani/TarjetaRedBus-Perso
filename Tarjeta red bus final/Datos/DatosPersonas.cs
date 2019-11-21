@@ -18,10 +18,10 @@ namespace Datos
 
             if (accion == "Agregar")
                 orden = "insert into Personas values ('" + objPersonas.Nombre + "', '" + objPersonas.Apellido +
-                    "', '" + objPersonas.Sexo + "', '"+objPersonas.FechaNac+"', "+objPersonas.DNI+", "+objPersonas.Cuild+") ;";
+                    "', '" + objPersonas.Sexo + "', '"+objPersonas.FechaNac +"', "+objPersonas.DNI+", "+objPersonas.Cuild+") ;";
             if (accion == "Modificar")
                 orden = "update Personas set DNI= '" + objPersonas.Nombre + "', '" + objPersonas.Apellido + "', '" +
-                   objPersonas.Sexo + "', '"+objPersonas.FechaNac+"', "+objPersonas.DNI+", "+objPersonas.Cuild+";";
+                   objPersonas.Sexo + "', '"+objPersonas.FechaNac +"', "+objPersonas.DNI+", "+objPersonas.Cuild+";";
 
             SqlCommand cmd = new SqlCommand(orden, conexion);
 

@@ -9,6 +9,7 @@ namespace Entidades
     public class Tarjeta
     {
         #region atributos
+        private int dni;
         private int dniTarjeta;
         private string nombre;
         private int saldo;
@@ -17,6 +18,7 @@ namespace Entidades
         #region constructor
         public void Tarjetas()
         {
+            dni = 0;
             dniTarjeta = 0;
             saldo = 0;
             nombre = string.Empty;
@@ -24,6 +26,11 @@ namespace Entidades
         #endregion
 
         #region
+        public int DNI
+        {
+            get { return dni; }
+            set { dni = value; }
+        }
         public int DNITarjeta
         {
             get { return dniTarjeta; }

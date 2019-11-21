@@ -19,10 +19,10 @@ namespace Datos
 
             if (accion == "Agregar")
                 orden = "insert into Tarjetas values ('" + objTarjeta.Nombre +"', "+ objTarjeta.DNITarjeta +
-                    ",'" + objTarjeta.Saldo + "') ;";
+                    ",'" + objTarjeta.Saldo + "',"+objTarjeta.DNI+") ;";
             if (accion == "Modificar")
                 orden = "update Tarjetas set DNITarjeta= " +objTarjeta.DNITarjeta+ "update Tarjetas set DNITarjeta=" + objTarjeta.Saldo +  "," +
-                   objTarjeta.Nombre+";";
+                   objTarjeta.Nombre+ "," + objTarjeta.DNI + ";";
 
             SqlCommand cmd = new SqlCommand(orden, conexion);
 
@@ -48,7 +48,7 @@ namespace Datos
         {
             string orden = string.Empty;
             if (cual != "Todos")
-                orden = " select *from Tarjetas where Saldo = " + int.Parse(cual) + ";";
+                orden = " select * from Tarjetas where Saldo = " + int.Parse(cual) + ";";
             else
                 orden = "select * from Tarjetas;";
 
@@ -77,5 +77,6 @@ namespace Datos
             return ds;
         }
         #endregion
+
     }
 }

@@ -17,14 +17,16 @@ namespace Tarjeta_red_bus_final
         public Form1()
         {
             InitializeComponent();
-            DgVTarjeta.ColumnCount = 3;
-            DgVTarjeta.Columns[0].HeaderText = "DNI";
+            DgVTarjeta.ColumnCount = 4;
+            DgVTarjeta.Columns[0].HeaderText = "Nombre";
             DgVTarjeta.Columns[1].HeaderText = "DNI Tarjeta";
             DgVTarjeta.Columns[2].HeaderText = "Saldo";
+            DgVTarjeta.Columns[3].HeaderText = "DNI";
 
-            DgVTarjeta.Columns[0].Width = 200;
-            DgVTarjeta.Columns[1].Width = 60;
+            DgVTarjeta.Columns[0].Width = 60;
+            DgVTarjeta.Columns[1].Width = 200;
             DgVTarjeta.Columns[2].Width = 60;
+            DgVTarjeta.Columns[3].Width = 60;
             llenarDvg();
 
         }
@@ -49,7 +51,7 @@ namespace Tarjeta_red_bus_final
             {
                 foreach (DataRow dr in ds.Tables[0].Rows)
                 {
-                    DgVTarjeta.Rows.Add(dr[0].ToString(), dr[1], dr[2]);
+                    DgVTarjeta.Rows.Add(dr[0].ToString(), dr[1], dr[2], dr[3]);
                 }
             }
             else
@@ -57,6 +59,7 @@ namespace Tarjeta_red_bus_final
         }
         private void TxtBox_a_obj()
         {
+            objEntTarjeta.DNI = int.Parse(textBox1.Text);
             objEntTarjeta.Nombre = textNombre.Text;
             objEntTarjeta.DNITarjeta = int.Parse(textDni.Text);
             objEntTarjeta.Saldo = int.Parse(textBox3.Text);
@@ -64,6 +67,7 @@ namespace Tarjeta_red_bus_final
 
         private void Limpiar()
         {
+            textBox1.Text = string.Empty;
             textNombre.Text = string.Empty;
             textDni.Text = string.Empty;
             textBox3.Text = string.Empty;
@@ -92,7 +96,9 @@ namespace Tarjeta_red_bus_final
             textBox3.Text = ds.Tables[0].Rows[0]["Saldo"].ToString();
             textDni.Text = ds.Tables[0].Rows[0]["DNITarjeta"].ToString();
             textNombre.Text = ds.Tables[0].Rows[0]["Nombre"].ToString();
+            textBox1.Text =ds.Tables[0].Rows[0]["DNI"].ToString();
             textDni.Enabled = false;
+            textBox1.Enabled = false;
         }
 
         private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
